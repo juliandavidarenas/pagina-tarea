@@ -186,10 +186,6 @@ footer{
     color: #9e9797;
 }
 
-@media screen and (max-width:900px){
-    header{
-        background-position: center;
-    }
 
     .contenedor-sobre-nosotros{
         flex-direction: column;
@@ -216,11 +212,6 @@ footer{
     
 
 
-@media screen (max-width:500px){
-    nav{
-        text-align: center;
-        padding: 30px 0 0 0;
-    }
 
     nav > a{
         margin-right: 5px;
