@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="C:\Users\julian\Desktop\sitio web/bushido.jpg">
+<title>EL BUSHIDO</title>
+<link rel="stylesheet" href="C:\Users\julian\Desktop\sitio web/estilos2.css">
+</head>
+
+<body>
+
+<header>
+<div style="text-align:center">    
+ <a href="C:\Users\julian\Desktop\sitio web/pagina web.html">Inicio</a>
+
+ <a href="C:\Users\julian\Desktop\sitio web/elcredo.html">El Credo del Samurai</a>
+
+ <a href="C:\Users\julian\Desktop\sitio web/contacto.html">Contacto</a>
+  
+</div>
+</header>
+<img src="C:\Users\julian\Desktop\sitio web/bushido.jpg" width="200" alt="logotipo">
+<article>
+<h2 align="center">CONTACTO</h2>
+<div id="after_submit"></div>
+
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+	<label class="required" for="name">Nombre:</label><br />
+	<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	<span id="name_validation" class="error_message"></span>
+	</div>
+ <div class="row">
+	<label class="required" for="email">Email:</label><br />
+	<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	<span id="email_validation" class="error_message"></span>
+</div>
+<div class="row">
+	<label class="required" for="message">Mensaje:</label><br />
+	<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	<span id="message_validation" class="error_message"></span>
+</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>
+</body>
+
+</html>
